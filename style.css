@@ -74,8 +74,8 @@ span {
 }
 
 .leftpart_upper {
-    padding-top:120px;
-    padding-left:40px;
+  padding-top: 120px;
+  padding-left: 40px;
 }
 .leftpart_upper li a {
   text-decoration: none;
@@ -88,12 +88,13 @@ span {
   font-family: 'Montserrat';
 }
 
-.leftpart_upper li a:hover{color: #E3872D;}
-
+.leftpart_upper li a:hover {
+  color: #e3872d;
+}
 
 .leftpart_bottom {
-    padding-top: 280px;
-    padding-left:40px;
+  padding-top: 280px;
+  padding-left: 40px;
 }
 
 .leftpart_bottom li {
@@ -109,70 +110,107 @@ span {
   text-align: center;
 }
 
-.leftpart_bottom li a:hover{color: #E3872D;}
+.leftpart_bottom li a:hover {
+  color: #e3872d;
+}
 
 /*ABOUT*/
 
 /*ABOUT LEFT*/
 #about h3 {
-    font-family: 'Montserrat';
-    color:black;
-    font-size: 50px;
-    font-weight: 50px;
-    padding-left: 25%;
-  }
-
-  #about p {
-    font-family: 'Montserrat';
-    color:black;
-    font-size: 16px;
-    font-weight: 50px;
-    padding-left: 25%;
-  }
-
-  /*ABOUT RIGHT*/
-.title_holder{
-    margin-left: 50%;
-    padding: 20px;
-    display: inline-block;
-    border-style: dotted;
-    border-color: #e3872d; 
-   
+  font-family: 'Montserrat';
+  color: black;
+  font-size: 50px;
+  font-weight: 50px;
+  padding-left: 25%;
 }
 
-  .title_holder p {
-    color:black;
-    font-size: 24px;
-    font-family: 'Montserrat';
+#about p {
+  font-family: 'Montserrat';
+  color: black;
+  font-size: 16px;
+  font-weight: 50px;
+  padding-left: 25%;
+}
+
+/*ABOUT RIGHT*/
+.title_holder {
+  margin-left: 50%;
+  padding: 20px;
+  display: inline-block;
+  border-style: dotted;
+  border-color: #e3872d;
+}
+
+.title_holder p {
+  color: black;
+  font-size: 24px;
+  font-family: 'Montserrat';
+}
+
+.title_holder article {
+  font-family: 'Open Sans';
+  font-size: 14px;
+  line-height: 1.8;
+  letter-spacing: 0.5px;
+  word-wrap: break-word;
+  font-weight: 400;
+}
+
+.profile_holder img {
+  position: absolute;
+  top: 200%;
+  left: 20%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  border-radius: 70%;
+}
+
+#about h3:before {
+  position: absolute;
+  content: '';
+  width: 6px;
+  height: 72px;
+  background-color: #e3872d;
+  opacity: 50%;
+}
+
+article span {
+  color: #e3872d;
+}
+
+/*SKILLS*/
+.skills {
+  margin-left: 250px;
+  position: absolute;
+  top: 240%;
+  width: 100%;
+  background-color: lightgray;
+  display: flex;
+}
+
+.skill_explain p {
+  padding-left: 5%;
+  color: black;
+  font-size: 24px;
+  font-family: 'Montserrat';
+}
+
+.skill_explain article {
+  padding-left: 5%;
+  width: 25%;
+  font-family: 'Open Sans';
+  font-size: 14px;
+  line-height: 1.8;
+  letter-spacing: 0.5px;
+  word-wrap: break-word;
+  font-weight: 400;
+}
+
+.skill_explain{
+
+}
+
+.skill_list{
     
-  }
-
-.title_holder article{
-    font-family: "Open Sans";
-    font-size: 14px;
-    line-height: 1.8;
-    letter-spacing: 0.5px;
-    word-wrap: break-word;
-    font-weight: 400;
-  }
-
-  .profile_holder img {
-      position: absolute;
-      top:200%;
-      left:20%;
-      transform: translate(-50%,-50%);
-      display: flex;
-      border-radius: 70%;
-  }
-
-
-  #about h3:before {
-    position: absolute;
-    content: "";
-    width: 6px;
-    height: 72px;
-    background-color: #E3872D;
-    opacity: 50%;    
-    }
-
-    article span {color: #e3872d}
+}
