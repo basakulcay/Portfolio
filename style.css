@@ -12,38 +12,42 @@ body {
 
 .name_holder {
   position: absolute;
-  top: 45%;
-  left: 55%;
+  top: 35%;
+  left: 60%;
   transform: translate(-50%, -50%);
 }
 
 .name_holder h3 span {
   color: maroon;
-  letter-spacing: 1.5;
+  letter-spacing: 2;
   font-size: 60px;
   font-weight: 400;
   font-family: 'Montserrat';
-  text-shadow: 1px  1px darkred;
+  text-shadow: 1px 1px maroon;
 }
 
 .image_wrap {
   display: inline-block;
   margin-bottom: 38px;
-  background-color: black;
+  background-color: #27375a;
+  height: 100vh;
 }
 
 .name_holder h3 {
   font-family: 'Montserrat';
   color: #fff;
-  letter-spacing: 1.5;
   font-size: 60px;
   font-weight: 400;
+  padding-left: 14%;
 }
 
 .name_holder p {
+  width: 120%;
   color: #fff;
+  letter-spacing: 5%;
   font-size: 24px;
   font-family: 'Montserrat';
+  letter-spacing: 2;
 }
 
 .content {
@@ -61,7 +65,8 @@ body {
 }
 
 .image_wrap img {
-  opacity: 0.4;
+  opacity: 0.1;
+  height: 100%;
 }
 
 span {
@@ -78,9 +83,8 @@ span {
   top: 0px;
   bottom: 0px;
   left: 0px;
-  background-color: black;
+  background-color: #041230;
   z-index: 100;
-  
 }
 
 .leftpart_upper {
@@ -111,7 +115,6 @@ span {
   margin-left: 0;
 }
 
-
 .leftpart_upper li a:hover {
   color: maroon;
 }
@@ -141,6 +144,7 @@ span {
 /*ABOUT*/
 
 /*ABOUT LEFT*/
+
 #about h3 {
   font-family: 'Montserrat';
   color: maroon;
@@ -198,12 +202,10 @@ span {
 
 .profile_holder img {
   position: relative;
-  padding-top: 0;
-  margin-top: 0;
-  width: 50%;
+  width: 40%;
+  margin-top: 25%;
   display: flex;
   z-index: 2;
-
   left: 20%;
 }
 
@@ -214,8 +216,9 @@ article span {
 /*SKILLS*/
 .skills {
   margin-left: 300px;
+  margin-top: 10px;
   position: absolute;
-  top: 300%;
+  position: relative;
   width: 100%;
   background-color: lightgray;
   display: flex;
@@ -256,7 +259,7 @@ article span {
   position: relative;
   max-width: 90%;
   margin: 10px auto;
-  background-color:#F8F8F8;
+  background-color: #f8f8f8;
   font-family: 'Open Sans', sans-serif;
   padding: 10px 0;
 }
@@ -279,7 +282,6 @@ article span {
   position: relative;
   background-color: inherit;
   width: 37%;
-  
 }
 
 /* The circles on the timeline */
@@ -356,7 +358,6 @@ article span {
 
   /* Full-width containers */
 
-
   /* Make sure that all arrows are pointing leftwards */
   .t_container::before {
     left: 60px;
@@ -377,7 +378,7 @@ article span {
   }
 }
 
-.t_container h2{
+.t_container h2 {
   font-size: 14px;
   font-family: 'Open Sans';
   letter-spacing: 0.5px;
@@ -402,11 +403,9 @@ article span {
   font-weight: bold;
 }
 
-
-.animate__animated.animate__bounce{
+.animate__animated.animate__bounce {
   --animate-repeat: 20;
   --animate-duration: 2s;
-
 }
 
 quote {
@@ -418,5 +417,5 @@ quote {
   word-wrap: break-word;
   font-weight: 400;
   font-style: italic;
-  text-shadow: 0.5px  0.5px red;
+  text-shadow: 0.5px 0.5px red;
 }
