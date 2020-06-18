@@ -111,6 +111,9 @@ span {
 
 .leftpart_bottom li a:hover{color: #E3872D;}
 
+/*ABOUT*/
+
+/*ABOUT LEFT*/
 #about h3 {
     font-family: 'Montserrat';
     color:black;
@@ -127,27 +130,49 @@ span {
     padding-left: 25%;
   }
 
+  /*ABOUT RIGHT*/
+.title_holder{
+    margin-left: 50%;
+    padding: 20px;
+    display: inline-block;
+    border-style: dotted;
+    border-color: #e3872d; 
+   
+}
+
   .title_holder p {
     color:black;
     font-size: 24px;
     font-family: 'Montserrat';
-    padding-left: 65%;
+    
   }
 
-  article{
+.title_holder article{
     font-family: "Open Sans";
     font-size: 14px;
     line-height: 1.8;
     letter-spacing: 0.5px;
     word-wrap: break-word;
     font-weight: 400;
-    padding-left: 65%;
   }
 
   .profile_holder img {
-      display: inline-block;
+      position: absolute;
+      top:200%;
+      left:20%;
+      transform: translate(-50%,-50%);
+      display: flex;
+      border-radius: 70%;
   }
 
-  .title_holder {
-      display: inline-block;
-  }
+
+  #about h3:before {
+    position: absolute;
+    content: "";
+    width: 6px;
+    height: 72px;
+    background-color: #E3872D;
+    opacity: 50%;    
+    }
+
+    article span {color: #e3872d}
