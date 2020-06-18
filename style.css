@@ -172,9 +172,9 @@ span {
 /*ABOUT RIGHT*/
 .title_holder {
   margin-top: 50px;
-  margin-left: 45%;
-  width: 40%;
-  padding: 20px;
+  margin-left: 25%;
+  width: 60%;
+  padding: 10px;
   display: inline-block;
   border-style: dotted;
   border-color: maroon;
@@ -250,15 +250,13 @@ article span {
 
 /*TIMELINE*/
 
-/* Set a background color */
-
 /* The actual timeline (the vertical ruler) */
 .timeline {
   position: relative;
-  max-width: 1200px;
+  max-width: 90%;
   margin: 0 auto;
-  background-color: #474e5d;
-  font-family: Helvetica, sans-serif;
+  background-color: lightgrey;
+  font-family: 'Open Sans', sans-serif;
 }
 
 /* The actual timeline (the vertical ruler) */
@@ -278,18 +276,19 @@ article span {
   padding: 10px 40px;
   position: relative;
   background-color: inherit;
-  width: 50%;
+  width: 40%;
+  
 }
 
 /* The circles on the timeline */
 .t_container::after {
   content: '';
   position: absolute;
-  width: 25px;
-  height: 25px;
-  right: -17px;
+  width: 15px;
+  height: 15px;
+  right: -10px;
   background-color: white;
-  border: 4px solid #ff9f55;
+  border: 4px solid maroon;
   top: 15px;
   border-radius: 50%;
   z-index: 1;
@@ -335,12 +334,12 @@ article span {
 
 /* Fix the circle for containers on the right side */
 .right::after {
-  left: -16px;
+  left: -10px;
 }
 
 /* The actual content */
 .t_content {
-  padding: 20px 30px;
+  padding: 5px 10px;
   background-color: white;
   position: relative;
   border-radius: 6px;
@@ -356,8 +355,8 @@ article span {
   /* Full-width containers */
   .t_container {
     width: 100%;
-    padding-left: 70px;
-    padding-right: 25px;
+   
+    
   }
 
   /* Make sure that all arrows are pointing leftwards */
@@ -378,4 +377,20 @@ article span {
   .right {
     left: 0%;
   }
+}
+
+.t_container h2{
+  font-size: 16px;
+  font-family: 'Open Sans';
+  letter-spacing: 0.5px;
+  word-wrap: break-word;
+  font-weight: 400;
+}
+
+.t_container span {
+  font-size: 16px;
+  font-family: 'Open Sans';
+  letter-spacing: 0.5px;
+  word-wrap: break-word;
+  font-weight: bold;
 }
