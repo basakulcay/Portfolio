@@ -198,7 +198,7 @@ article span {
 
 .skill_explain article {
   padding-left: 5%;
-  width: 25%;
+  width: 65%;
   font-family: 'Open Sans';
   font-size: 14px;
   line-height: 1.8;
@@ -207,10 +207,3 @@ article span {
   font-weight: 400;
 }
 
-.skill_explain{
-
-}
-
-.skill_list{
-    
-}
