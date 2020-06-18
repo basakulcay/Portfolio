@@ -143,3 +143,11 @@ span {
     font-weight: 400;
     padding-left: 65%;
   }
+
+  .profile_holder img {
+      display: inline-block;
+  }
+
+  .title_holder {
+      display: inline-block;
+  }
