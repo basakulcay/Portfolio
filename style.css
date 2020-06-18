@@ -187,6 +187,7 @@ article span {
   width: 100%;
   background-color: lightgray;
   display: flex;
+  height: 150px;
 }
 
 .skill_explain p {
@@ -207,3 +208,11 @@ article span {
   font-weight: 400;
 }
 
+.skill_list ul li {
+  list-style-type: none;
+  vertical-align: middle;
+  font-family: 'Open Sans';
+  font-size: 14px;
+  line-height: 1.8;
+  letter-spacing: 0.5px;
+}
