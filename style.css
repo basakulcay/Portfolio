@@ -23,6 +23,7 @@ body {
   font-size: 60px;
   font-weight: 400;
   font-family: 'Montserrat';
+  text-shadow: 1px  1px darkred;
 }
 
 .image_wrap {
@@ -105,7 +106,7 @@ span {
   height: 1px;
   background: maroon;
   position: absolute;
-  bottom: 100px;
+  bottom: 150px;
   padding-left: 0%;
   margin-left: 0;
 }
@@ -212,13 +213,13 @@ article span {
 
 /*SKILLS*/
 .skills {
-  margin-left: 250px;
+  margin-left: 300px;
   position: absolute;
-  top: 350%;
+  top: 300%;
   width: 100%;
   background-color: lightgray;
   display: flex;
-  height: 150px;
+  height: auto;
 }
 
 .skill_explain p {
@@ -406,4 +407,16 @@ article span {
   --animate-repeat: 20;
   --animate-duration: 2s;
 
+}
+
+quote {
+  color: maroon;
+  font-family: 'Open Sans';
+  font-size: 14px;
+  line-height: 1.8;
+  letter-spacing: 0.5px;
+  word-wrap: break-word;
+  font-weight: 400;
+  font-style: italic;
+  text-shadow: 0.5px  0.5px red;
 }
