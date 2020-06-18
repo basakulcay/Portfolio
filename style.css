@@ -18,8 +18,9 @@ body {
 }
 
 .name_holder h3 span {
-  font-weight: 500;
-  color: #e3872d;
+  color: maroon;
+  font-size: 50px;
+  font-weight: 50px;
 }
 
 .image_wrap {
@@ -56,7 +57,7 @@ body {
 }
 
 img {
-  opacity: 0.3;
+  opacity: 0.6;
 }
 
 span {
@@ -89,7 +90,7 @@ span {
 }
 
 .leftpart_upper li a:hover {
-  color: #e3872d;
+  color: maroon;
 }
 
 .leftpart_bottom {
@@ -111,7 +112,7 @@ span {
 }
 
 .leftpart_bottom li a:hover {
-  color: #e3872d;
+  color: maroon;
 }
 
 /*ABOUT*/
@@ -119,10 +120,23 @@ span {
 /*ABOUT LEFT*/
 #about h3 {
   font-family: 'Montserrat';
-  color: black;
+  color: maroon;
   font-size: 50px;
   font-weight: 50px;
   padding-left: 25%;
+  position: relative;
+}
+
+#about h3::after {
+  display: block;
+  padding-left: 40%;
+  content: '';
+  width: 10%;
+  height: 1px;
+  background: black;
+  position: absolute;
+  bottom: 0;
+  left: 0;
 }
 
 #about p {
@@ -135,11 +149,13 @@ span {
 
 /*ABOUT RIGHT*/
 .title_holder {
-  margin-left: 50%;
+  margin-top: 50px;
+  margin-left: 45%;
+  width: 40%;
   padding: 20px;
   display: inline-block;
   border-style: dotted;
-  border-color: #e3872d;
+  border-color: maroon;
 }
 
 .title_holder p {
@@ -163,20 +179,12 @@ span {
   left: 20%;
   transform: translate(-50%, -50%);
   display: flex;
-  border-radius: 70%;
-}
-
-#about h3:before {
-  position: absolute;
-  content: '';
-  width: 6px;
-  height: 72px;
-  background-color: #e3872d;
-  opacity: 50%;
+  border-radius: 100%;
+  height: 70%;
 }
 
 article span {
-  color: #e3872d;
+  color: maroon;
 }
 
 /*SKILLS*/
