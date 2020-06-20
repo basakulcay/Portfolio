@@ -80,7 +80,6 @@ span {
   display: inline-block;
 }
 
-
 .leftpart_wrap {
   position: fixed;
   width: 300px;
@@ -213,7 +212,6 @@ span {
   display: flex;
   z-index: 2;
   width: 50%;
-
 }
 
 article span {
@@ -249,13 +247,41 @@ article span {
   font-weight: 400;
 }
 
+.skill_list {
+  width: 200px;
+  margin: 30px;
+  border-style: dotted;
+  border-color: maroon;
+}
+
 .skill_list ul li {
   list-style-type: none;
-  vertical-align: middle;
+  margin: 0;
+  padding: 0;
   font-family: 'Open Sans';
   font-size: 14px;
-  line-height: 1.8;
-  letter-spacing: 0.5px;
+  border-bottom: 1px solid #ccc;
+}
+
+.skill_list ul li:last-child {
+  border: none;
+}
+
+.skill_list ul li {
+  text-decoration: none;
+  color: #000;
+  -webkit-transition: font-size 0.3s ease, background-color 0.3s ease;
+  -moz-transition: font-size 0.3s ease, background-color 0.3s ease;
+  -o-transition: font-size 0.3s ease, background-color 0.3s ease;
+  -ms-transition: font-size 0.3s ease, background-color 0.3s ease;
+  transition: font-size 0.3s ease, background-color 0.3s ease;
+  display: block;
+  width: 200px;
+}
+
+.skill_list ul li:hover {
+  color: maroon;
+  font-size: 18px;
 }
 
 /*TIMELINE*/
@@ -425,4 +451,26 @@ quote {
   font-weight: 400;
   font-style: italic;
   text-shadow: 0.5px 0.5px red;
+}
+
+.Portfolio {
+  position: relative;
+  margin-left: 300px;
+  margin-top: 10px;
+  padding: 30px;
+  color: white;
+}
+.container {
+  display: inline-flex;
+  max-width: 1000px;
+  height: auto;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.Portfolio img {
+  height: 200px;
+  width: 300px;
+  padding: 10px;
 }
