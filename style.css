@@ -448,7 +448,7 @@ quote {
   text-shadow: 0.5px 0.5px red;
 }
 
-.Portfolio {
+#Portfolio {
   position: relative;
   margin-left: 300px;
   margin-top: 10px;
@@ -464,7 +464,7 @@ quote {
   flex-wrap: wrap;
 }
 
-.Portfolio h3 {
+#Portfolio h3 {
   font-family: 'Montserrat';
   color: maroon;
   font-size: 50px;
@@ -473,7 +473,7 @@ quote {
   position: relative;
 }
 
-.Portfolio h3::after {
+#Portfolio h3::after {
   display: block;
 
   content: '';
@@ -485,7 +485,7 @@ quote {
   left: 0;
 }
 
-.Portfolio img {
+#Portfolio img {
   height: 200px;
   width: 300px;
   padding: 10px;
@@ -514,7 +514,7 @@ quote {
     width: 70%;
   }
 
-  .Portfolio h3::after {
+  #Portfolio h3::after {
     width: 70%;
   }
   .skills {
@@ -549,9 +549,20 @@ quote {
     height: 100%;
   }
 
-  .Portfolio {
+  #Portfolio {
     margin: 0;
     padding: 0;
     width: 100%;
   }
 }
+
+
+/* iPads (portrait and landscape) ----------- */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+  /* Styles */
+  }
+
+  /* Desktops and laptops ----------- */
+@media only screen  and (min-width : 1224px) {
+  /* Styles */
+  }
