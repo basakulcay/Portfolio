@@ -386,6 +386,22 @@ article span {
   border-radius: 6px;
 }
 
+.one, .two {
+  color: black;
+  font-family: 'Open Sans', sans-serif;
+  text-align: center;
+  transition-property: opacity;
+  transition-duration: 100ms;
+  transition-timing-function: ease-in;
+}
+.one:hover {
+  opacity: 0.7;
+}
+
+.two:hover {
+  opacity: 0.7;
+}
+
 @media screen and (max-width: 600px) {
   /* Place the timelime to the left */
   .timeline::after {
@@ -489,8 +505,6 @@ quote {
   height: 170px;
   padding: 5px 5px 5px 5px;
 }
-
-
 
 /*Smartphone portrait and landscape*/
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
