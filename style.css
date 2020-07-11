@@ -132,6 +132,10 @@ span {
   display: inline-block;
 }
 
+#icons {
+  margin-top: 20px;
+}
+
 .leftpart_bottom li a {
   text-decoration: none;
   list-style-type: none;
@@ -139,6 +143,7 @@ span {
   padding: 2px;
   position: relative;
   text-align: center;
+  font-size: 22px;
 }
 
 .leftpart_bottom li a:hover {
@@ -224,6 +229,13 @@ article span {
 }
 
 /*SKILLS*/
+.skills_2 {
+  margin-left: 0px;
+  margin-top: 10px;
+
+  width: 100%;
+}
+
 .skills {
   margin-left: 300px;
   margin-top: 10px;
@@ -235,6 +247,7 @@ article span {
 }
 
 .skill_explain p {
+  padding-top: 10px;
   padding-left: 5%;
   color: black;
   font-size: 24px;
@@ -386,7 +399,8 @@ article span {
   border-radius: 6px;
 }
 
-.one, .two {
+.one,
+.two {
   color: black;
   font-family: 'Open Sans', sans-serif;
   text-align: center;
@@ -400,6 +414,75 @@ article span {
 
 .two:hover {
   opacity: 0.7;
+}
+
+.button {
+  position: relative;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  display: block;
+  overflow: hidden;
+  margin: auto;
+  border-radius: 5px;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.3);
+  width: 300px;
+  height: 100px;
+  line-height: 100px;
+  background-color: #27375a;
+  color: #fff;
+}
+
+.button span,
+.button .icon {
+  position: absolute;
+  display: block;
+  height: 100%;
+  text-align: center;
+}
+
+.button span {
+  width: 72%;
+  left: 0px;
+  line-height: inherit;
+  font-size: 18px;
+}
+
+.button .icon {
+  right: 0;
+  width: 28%;
+}
+
+.button .icon .fa {
+  font-size: 30px;
+  vertical-align: middle;
+}
+
+.icon {
+  width: 200px;
+  background-color: #2b50a0;
+}
+
+.button:hover span {
+  left: -72%;
+  color: maroon;
+}
+
+.button:hover .icon {
+  width: 100%;
+  color: maroon;
+}
+
+.button:hover .icon .fa {
+  font-size: 27px;
+}
+
+.button span,
+.button div,
+.button i {
+  transition: width 750ms ease-in 200ms, left 500ms ease-out 450ms,
+    font-size 950ms linear;
 }
 
 @media screen and (max-width: 600px) {

@@ -1,0 +1,17 @@
+      function switchVisible() {
+        if (document.getElementByClass('fancy')) {
+
+            if (document.getElementByClass('fancy').style.display == 'none') {
+                document.getElementByClass('fancy').style.display = 'block';
+                document.getElementById('vis_skills').style.display = 'none';
+            }
+            else {
+                document.getElementByClass('fancy').style.display = 'none';
+                document.getElementById('vis_skills').style.display = 'block';
+            }
+        }
+}
+
+
+html: 
+ <a class="fancy button"  role="button" href="#" value="Click" onClick="switchVisible();">
