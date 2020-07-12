@@ -11,18 +11,52 @@ body {
   margin: 0px;
 }
 
-.grid {
-display: grid;
-height: 100vh;
-grid-template-columns: repeat(3,1fr);
-grid-template-rows: repeat(4,1fr);
-}
-
 .name_holder {
   position: absolute;
   top: 35%;
   left: 59%;
   transform: translate(-50%, -50%);
+}
+#Portfolio p,
+#Portfolio figcaption {
+  color: black;
+}
+#Portfolio figcaption {
+  text-align: center;
+  font-family: 'Montserrat';
+  font-weight: 500;
+}
+
+#Portfolio p {
+  font-family: 'Open Sans';
+  font-size: 14px;
+  font-weight: 100;
+}
+
+#Portfolio .border {
+  border-width: 3px !important;
+  border-color: maroon !important;
+}
+
+.sub-p {
+  word-spacing: 2em;
+  text-align: center;
+  font-family: var(--ff-source);
+  color: black;
+}
+
+.github {
+  text-decoration: none;
+  color: var(--clr-light);
+  display: inline-block;
+  margin-right: 3em;
+  margin-left: 3em;
+}
+
+.no-margins {
+  text-decoration: none;
+  color: var(--clr-light);
+  display: inline-block;
 }
 
 .name_holder h3 {
@@ -568,6 +602,7 @@ quote {
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
+  align-content: center;
 }
 
 #Portfolio h3 {
