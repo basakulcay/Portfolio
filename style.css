@@ -572,6 +572,23 @@ article span {
 }
 
 @media screen and (max-width: 600px) {
+  #contact {
+left: 5px;
+  }
+  
+  #contact h1 {
+    margin-left: 0;
+    padding-top: 10px;
+    font-size: 24px;
+    font-family: 'Montserrat';
+  }
+  
+  #contact p{
+    margin-left: 0;
+    padding-top: 10px;
+    font-size: 14px;
+    font-family: 'Montserrat';
+  }
   /* Place the timelime to the left */
   .timeline::after {
     left: 31px;
@@ -675,6 +692,8 @@ quote {
   height: 170px;
   padding: 5px 5px 5px 5px;
 }
+
+
 
 /*Smartphone portrait and landscape*/
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
