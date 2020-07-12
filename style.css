@@ -118,14 +118,52 @@ body {
   padding: 0;
 }
 
-.contact {
-  margin-left: 300px;
-  margin-top: 10px;
+#contact {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  overflow-x: hidden;
   position: relative;
   width: 100%;
-  background-color: lightgray;
-  display: flex;
-  height: auto;
+  background-color: #041230;
+  color: white;
+}
+
+#contact h1 {
+  margin-left: 350px;
+  padding-top: 10px;
+  font-size: 24px;
+  font-family: 'Montserrat';
+}
+
+#contact p{
+  margin-left: 350px;
+  padding-top: 10px;
+  font-size: 14px;
+  font-family: 'Montserrat';
+}
+
+#contact span {
+  font-weight: bold;
+}
+
+#myBtn {
+  position: absolute;
+  bottom: 60px; /* Place the button at the bottom of the page */
+  right: 50px; /* Place the button 30px from the right */
+  z-index: 99; /* Make sure it does not overlap */
+  border-color: darkred; /* Remove borders */
+  outline: none; /* Remove outline */
+  background-color: maroon; 
+  color: white; 
+  cursor: pointer; 
+  padding: 5px;
+  width: 100px;
+  border-radius: 10px; 
+  font-size: 30px; 
+}
+
+#myBtn:hover {
+  background-color: red; 
 }
 
 .inner_content {
@@ -222,7 +260,7 @@ span {
 #about {
   position: relative;
   margin-left: 300px;
-  margin-top: 10px;
+  margin-top: 0px;
   padding: 0 30px;
 }
 
