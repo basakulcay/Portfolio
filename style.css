@@ -18,6 +18,10 @@ body {
   left: 59%;
   transform: translate(-50%, -50%);
 }
+
+#Portfolio img {
+  margin-top: 10px;
+}
 #Portfolio p,
 #Portfolio figcaption {
   color: black;
@@ -36,8 +40,8 @@ body {
 }
 
 #Portfolio .border {
-  border-width: 3px !important;
-  border-color: maroon !important;
+  border-width: 2px !important;
+  border-color: #041230 !important;
 }
 
 .sub-p {
@@ -47,8 +51,10 @@ body {
   color: maroon;
   margin-bottom: 0;
 }
+
 .p-opacity {
   color: maroon;
+  font-size: 16px;
 }
 
 .github {
@@ -57,12 +63,14 @@ body {
   display: inline-block;
   margin-right: 3em;
   margin-left: 3em;
+  font-size: 20px;
 }
 
 .no-margins {
   text-decoration: none;
   color: maroon;
   display: inline-block;
+  font-size: 20px;
 }
 
 .name_holder h3 {
@@ -108,6 +116,16 @@ body {
 .content {
   margin: 0;
   padding: 0;
+}
+
+.contact {
+  margin-left: 300px;
+  margin-top: 10px;
+  position: relative;
+  width: 100%;
+  background-color: lightgray;
+  display: flex;
+  height: auto;
 }
 
 .inner_content {
