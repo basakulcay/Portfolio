@@ -10,6 +10,7 @@ body {
   word-wrap: break-word;
   padding: 0px;
   margin: 0px;
+  overflow-x: hidden;
 }
 
 .name_holder {
@@ -22,10 +23,12 @@ body {
 #Portfolio img {
   margin-top: 10px;
 }
+
 #Portfolio p,
 #Portfolio figcaption {
   color: black;
 }
+
 #Portfolio figcaption {
   text-align: center;
   font-family: 'Montserrat';
@@ -148,11 +151,16 @@ body {
 
 #myBtn {
   position: absolute;
-  bottom: 60px; /* Place the button at the bottom of the page */
-  right: 50px; /* Place the button 30px from the right */
-  z-index: 99; /* Make sure it does not overlap */
-  border-color: darkred; /* Remove borders */
-  outline: none; /* Remove outline */
+  bottom: 60px;
+  /* Place the button at the bottom of the page */
+  right: 50px;
+  /* Place the button 30px from the right */
+  z-index: 99;
+  /* Make sure it does not overlap */
+  border-color: darkred;
+  /* Remove borders */
+  outline: none;
+  /* Remove outline */
   background-color: maroon;
   color: white;
   cursor: pointer;
@@ -170,9 +178,12 @@ body {
   width: 100%;
   top: 0px;
   position: relative;
-  -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
-  -moz-box-sizing: border-box; /* Firefox, other Gecko */
-  box-sizing: border-box; /* Opera/IE 8+ */
+  -webkit-box-sizing: border-box;
+  /* Safari/Chrome, other WebKit */
+  -moz-box-sizing: border-box;
+  /* Firefox, other Gecko */
+  box-sizing: border-box;
+  /* Opera/IE 8+ */
 }
 
 .image_wrap img {
@@ -485,9 +496,6 @@ article span {
   border-color: transparent transparent transparent white;
 }
 
-.
-
-
 /* Add arrows to the right container (pointing left) */
 .right::before {
   content: ' ';
@@ -638,6 +646,7 @@ article span {
   .timeline::after {
     left: 31px;
   }
+
   /* Full-width containers */
   /* Make sure that all arrows are pointing leftwards */
   .t_container::before {
@@ -646,16 +655,19 @@ article span {
     border-width: 10px 10px 10px 0;
     border-color: transparent white transparent transparent;
   }
+
   /* Make sure all circles are at the same spot */
   .left::after,
   .right::after {
     left: 15px;
   }
+
   /* Make all right containers behave like the left ones */
   .right {
     left: 0%;
   }
 }
+
 .t_container h2 {
   font-size: 14px;
   font-family: 'Open Sans';
@@ -663,6 +675,7 @@ article span {
   word-wrap: break-word;
   font-weight: 400;
 }
+
 #company {
   font-size: 14px;
   font-family: 'Open Sans';
@@ -671,6 +684,7 @@ article span {
   font-weight: italic;
   text-decoration: underline;
 }
+
 #year {
   font-size: 16px;
   font-family: 'Open Sans';
@@ -678,12 +692,14 @@ article span {
   word-wrap: break-word;
   font-weight: bold;
 }
+
 .animate__animated.animate__bounce {
   --animate-repeat: 20;
   --animate-duration: 2s;
   color: maroon;
   font-size: 14px;
 }
+
 quote {
   color: maroon;
   font-family: 'Open Sans';
@@ -703,6 +719,7 @@ quote {
   padding: 30px;
   color: white;
 }
+
 .container {
   display: inline-flex;
   max-width: 1000px;
@@ -744,12 +761,15 @@ quote {
   body {
     width: 100%;
   }
+
   .leftpart_wrap {
     display: none;
   }
+
   .timeline::after {
     left: 50%;
   }
+
   .content {
     width: 100%;
   }
@@ -767,6 +787,7 @@ quote {
   #Portfolio h3::after {
     width: 70%;
   }
+
   .skills {
     margin: 0;
     padding: 0;
@@ -792,6 +813,7 @@ quote {
   .left p {
     width: auto;
   }
+
   .name_holder {
     margin: auto;
     padding: auto;
