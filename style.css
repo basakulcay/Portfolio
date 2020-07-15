@@ -627,6 +627,59 @@ body {
     margin-bottom: 2rem;
   }
 
+  /*RIGHT */
+  #right {
+    margin-left: 0;
+    width: 350px;
+  }
+  
+  .about_detail .title_holder .timeline::after {
+    content: '';
+    position: absolute;
+    width: 6px;
+    background-color: white;
+    top: 0;
+    bottom: 0;
+    left: 12%;
+  }
+
+  /*LEFT TIMELINE*/
+  #left {
+    margin-left: 0%;
+    width: 350px;
+  }
+  
+  #left #year::before {
+    display: none;
+  }
+  
+  #left p::before {
+    content: ' ';
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    left: 0%;
+    background-color: white;
+    border: 4px solid maroon;
+    border-radius: 50%;
+    z-index: 1;
+  }
+
+  #right p::after {
+    content: '';
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    left: 0%;
+    background-color: white;
+    border: 4px solid maroon;
+    border-radius: 50%;
+    z-index: 1;
+  }
+
+
+
+
   #portfolio .project_container {
     margin-right: 0;
   }
