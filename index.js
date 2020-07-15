@@ -69,3 +69,19 @@ function topFunction() {
   document.body.scrollTop = 0; // For Safari
   document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
 }
+
+
+//For button functionality
+function switchVisible() {
+  if (document.getElementByClass('fancy')) {
+
+      if (document.getElementByClass('fancy').style.display == 'none') {
+          document.getElementByClass('fancy').style.display = 'block';
+          document.getElementById('vis_skills').style.display = 'none';
+      }
+      else {
+          document.getElementByClass('fancy').style.display = 'none';
+          document.getElementById('vis_skills').style.display = 'block';
+      }
+  }
+}
