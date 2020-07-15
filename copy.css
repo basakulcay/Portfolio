@@ -126,6 +126,16 @@ body {
   text-shadow: 1px 1px maroon;
 }
 
+#home .inner_content .name_holder span {
+  display: inline-block;
+}
+
+.animate__animated.animate__flip {
+  backface-visibility: visible;
+  font-weight: bold;
+  animation-name: flip;
+}
+
 #home .inner_content .name_holder p {
   font-family: 'Montserrat';
   color: #fff;
@@ -214,6 +224,10 @@ body {
   font-size: 0.8rem;
   color: black;
   font-family: 'Montserrat';
+  background-color: white;
+  padding-bottom: 15px;
+  padding-top: 15px;
+  padding-right: 5px;
 }
 
 .about_detail .title_holder .timeline p .animate__animated.animate__bounce {
@@ -221,6 +235,50 @@ body {
   --animate-duration: 2s;
   color: maroon;
   font-size: 14px;
+  display: inline-block;
+}
+
+#right {
+  margin-left: 0;
+}
+
+#right p::after {
+  content: '';
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  left: 49.5%;
+  background-color: white;
+  border: 4px solid maroon;
+  border-radius: 50%;
+  z-index: 1;
+}
+
+#left {
+  margin-left: 55%;
+}
+
+#left #year::before {
+  content: ' ';
+  border: medium solid white;
+  border-width: 10px 10px 10px 0;
+  border-color: transparent white transparent transparent;
+  display: inline-block;
+  position: absolute;
+  z-index: 1;
+  right: 45.5%;
+}
+
+#left p::before {
+  content: ' ';
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  left: 49.5%;
+  background-color: white;
+  border: 4px solid maroon;
+  border-radius: 50%;
+  z-index: 1;
 }
 
 .about_detail .title_holder .timeline p #year {
@@ -231,6 +289,14 @@ body {
   font-weight: bold;
 }
 
+.about_detail .title_holder .timeline p #company {
+  font-size: 14px;
+  font-family: 'Open Sans';
+  letter-spacing: 0.5px;
+  word-wrap: break-word;
+  font-weight: italic;
+  text-decoration: underline;
+}
 .about_detail .title_holder .timeline::after {
   content: '';
   position: absolute;
@@ -239,7 +305,6 @@ body {
   top: 0;
   bottom: 0;
   left: 50%;
-  margin-left: -3px;
 }
 
 .about_detail .skills {
@@ -476,8 +541,12 @@ body {
   letter-spacing: 2em;
 }
 
-.github:hover{color:#041230;}
-.no-margins:hover{color:#041230;}
+.github:hover {
+  color: #041230;
+}
+.no-margins:hover {
+  color: #041230;
+}
 
 /* Mobile Responsive */
 
