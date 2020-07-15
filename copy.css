@@ -238,8 +238,21 @@ body {
   display: inline-block;
 }
 
+/*RIGHT*/
 #right {
   margin-left: 0;
+  width: 350px;
+}
+
+#right #year::after {
+  content: ' ';
+  border: medium solid white;
+  border-width: 10px 0 10px 10px;
+  border-color: transparent transparent transparent white;
+  display: inline-block;
+  position: absolute;
+  z-index: 1;
+  left: 46.4%;
 }
 
 #right p::after {
@@ -254,8 +267,10 @@ body {
   z-index: 1;
 }
 
+/*LEFT*/
 #left {
   margin-left: 55%;
+  width: 350px;
 }
 
 #left #year::before {
