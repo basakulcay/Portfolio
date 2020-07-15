@@ -8,6 +8,7 @@ body {
   overflow-x: hidden;
 }
 
+/* SIDE NAV BAR */
 .leftpart_wrap {
   position: fixed;
   width: 300px;
@@ -70,6 +71,8 @@ body {
   font-size: 22px;
 }
 
+
+/* MAIN SIDE */
 #home {
   margin-left: 300px;
 }
@@ -90,10 +93,10 @@ body {
 }
 
 #home .inner_content .name_holder {
-  width: 70%;
+  width: 60%;
   /* To center the entire box */
   margin: 3rem auto;
-  margin-top: 6rem;
+  margin-top: 10rem;
   /* To center the contents within the box */
   display: flex;
   flex-direction: column;
@@ -146,6 +149,8 @@ body {
   width: 80%;
   margin: 1rem auto;
 }
+
+/*ABOUT ME*/
 
 #about {
   padding: 0 30px;
@@ -239,7 +244,7 @@ body {
   display: inline-block;
 }
 
-/*RIGHT*/
+/*RIGHT TIMELINE*/
 #right {
   margin-left: 0;
   width: 350px;
@@ -268,7 +273,7 @@ body {
   z-index: 1;
 }
 
-/*LEFT*/
+/*LEFT TIMELINE*/
 #left {
   margin-left: 55%;
   width: 350px;
@@ -322,6 +327,8 @@ body {
   bottom: 0;
   left: 50%;
 }
+
+/*SKILLS DETAIL*/
 
 .about_detail .skills {
   margin-top: 10px;
@@ -399,6 +406,7 @@ body {
   vertical-align: middle;
 }
 
+/* SKILL LIST */
 .about_detail .skills .skill_list {
   width: 200px;
   padding: 2px 6px 2px 0px;
@@ -433,6 +441,7 @@ body {
   font-size: 16px;
 }
 
+/* PORTFOLIO */
 #portfolio .project_container {
   margin-right: 5%;
   display: flex;
@@ -441,14 +450,15 @@ body {
   align-items: center;
 }
 
-#portfolio .project_container .project {
-  width: 30%;
-  position: relative;
-  margin-bottom: 2rem;
-  border: 2px solid lightgrey;
-  margin-bottom: 2rem;
-}
 
+#portfolio .project_container .project {
+    width: 30%;
+    position: relative;
+    margin-bottom: 2rem;
+    border: 2px solid lightgrey;
+    margin-bottom: 2rem;
+  }
+  
 #portfolio .project_container .project img {
   width: 100%;
   object-fit: cover;
