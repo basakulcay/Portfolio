@@ -73,15 +73,11 @@ function topFunction() {
 
 //For button functionality
 function switchVisible() {
-  if (document.getElementByClass('fancy')) {
-
-      if (document.getElementByClass('fancy').style.display == 'none') {
-          document.getElementByClass('fancy').style.display = 'block';
-          document.getElementById('vis_skills').style.display = 'none';
-      }
-      else {
-          document.getElementByClass('fancy').style.display = 'none';
-          document.getElementById('vis_skills').style.display = 'block';
-      }
+  if (document.querySelector(".fancy").style.display == "none") {
+    document.querySelector(".fancy").style.display = "block";
+    document.querySelector(".skill_list").style.display = "none";
+  } else {
+    document.querySelector(".fancy").style.display = "none";
+    document.querySelector(".skill_list").style.display = "block";
   }
 }
